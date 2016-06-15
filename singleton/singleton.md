@@ -44,6 +44,6 @@ public class Singleton{
 
 ##练习
 这次练习主要是为了熟悉单例模式的使用,其中包含了三个类,主要是为了记录收到快递的次数.
-- [SingleDemo](https://github.com/haormj/java/designPattern/singleton/SingleDemo.java)         :练习的入口类
-- [PeopleSingle](https://github.com/haormj/java/designPattern/singleton/PeopleSingle.java)     :单例模式类
-- [CouriersThread](https://github.com/haormj/java/designPattern/singleton/CouriersThread.java) :多线程类
+- [SingleDemo](./SingleDemo.java)         :练习的入口类
+- [PeopleSingle](./PeopleSingle.java)     :单例模式类
+- [CouriersThread](./CouriersThread.java) :多线程类
