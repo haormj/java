@@ -1,6 +1,7 @@
 ﻿#单例模式
  - 单例:确保一个类只有一个实例对象,自行实例化向整个系统提供这个实例.
- - 表现形式:饿汉式:类加载时就对类进行实例化,懒汉式:第一次引用时对这个类进行实例化
+ - 表现形式:饿汉式:类加载时就对类进行实例化,懒汉式:第一次引用时对这个类进行实例化.
+ 
 ##饿汉式代码
 ```java
 public class Singleton{
@@ -43,6 +44,6 @@ public class Singleton{
 
 ##练习
 这次练习主要是为了熟悉单例模式的使用,其中包含了三个类,主要是为了记录收到快递的次数.
-	[SingleDemo](https://github.com/haormj/java/blob/designPattern/singleton/SingleDemo.java)         :练习的入口类
-	[PeopleSingle](https://github.com/haormj/java/blob/designPattern/singleton/PeopleSingle.java)     :单例模式类
-	[CouriersThread](https://github.com/haormj/java/blob/designPattern/singleton/CouriersThread.java) :多线程类
+- [SingleDemo](https://github.com/haormj/java/designPattern/singleton/SingleDemo.java)         :练习的入口类
+- [PeopleSingle](https://github.com/haormj/java/designPattern/singleton/PeopleSingle.java)     :单例模式类
+- [CouriersThread](https://github.com/haormj/java/designPattern/singleton/CouriersThread.java) :多线程类
