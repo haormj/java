@@ -9,14 +9,14 @@
  
 ```java
 /**
-* 产品类
-**/
+ * 产品类
+ */
 public class Product{
 	
 }	
 /**
-* 抽象建造者
-**/
+ * 抽象建造者
+ */
 public interface Builder{
 	
 	public void setPart1();
@@ -26,8 +26,8 @@ public interface Builder{
 	public Product buildProduct();
 }
 /**
-* 具体建造者
-**/
+ * 具体建造者
+ */
 public class ConcreteBuilder extends Builder{
 	
 	private Product product = new Product();
@@ -48,8 +48,8 @@ public class ConcreteBuilder extends Builder{
 	}
 }
 /**
-* 导演类
-**/
+ * 导演类
+ */
 public class Director{
 	private Builder builder = new ConcreteBuilder();
 	
