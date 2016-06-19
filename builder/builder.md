@@ -8,7 +8,7 @@
   - 导演者角色:安排已有模块,通知builder开始建造
  
 ```java
-//产品
+//产品类
 public class Product{
 	
 }	
