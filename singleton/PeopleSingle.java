@@ -15,6 +15,6 @@ public class PeopleSingle {
 	}
 
 	public String getAnswer(){
-		return "ÕâÊÇÎÒµÄµÚ"+ (++number) +"¸ö¿ìµİ";
+		return "è¿™ä¸ªæ˜¯ç¬¬" + (++number) +"ä¸ªå¿«é€’";
 	}
 }
