@@ -4,8 +4,8 @@ public class SingleDemo {
 	
 	public static void main(String[] args) {
 		
-		CouriersThread thread1 = new CouriersThread("线程1");
-		CouriersThread thread2 = new CouriersThread("线程2");
+		CouriersThread thread1 = new CouriersThread("绾跨▼1");
+		CouriersThread thread2 = new CouriersThread("绾跨▼2");
 		thread1.start();
 		try {
 			Thread.sleep(1000);
