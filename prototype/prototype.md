@@ -7,7 +7,7 @@
  
 	java使得一个类支持克隆只需要两步:
 	1. 实现Cloneable接口
-	2.覆盖Object的Clone方法
+	2. 覆盖Object的Clone方法
 
 ```java
 /**
