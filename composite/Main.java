@@ -1,5 +1,7 @@
 package com.haormj.composite;
-
+/**
+ * 这个是程序的入口
+ */
 public class Main {
 
 	public static void main(String[] args) {
